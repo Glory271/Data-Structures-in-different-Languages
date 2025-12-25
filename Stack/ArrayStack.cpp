@@ -1,9 +1,9 @@
 #include <iostream>
 #include <stdexcept>
-using namespace std
+using namespace std;
 
 template<typename T ,size_t MAX_SIZE = 100>
-Class ArrayStack {
+class ArrayStack {
 private:
     T data[MAX_SIZE];
     int topIndex;
@@ -56,4 +56,4 @@ public:
 
         cout << endl;
     }
-}
+};
